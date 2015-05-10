@@ -1,0 +1,108 @@
+body {
+	font-family: <FONTNAME/>;
+	font-size: <FONTSIZE/>pt;
+	color: <FONTCOLOR/>;
+	background-color: <BGCOLOR/>;
+}
+
+/* Added */
+
+#nav ul
+{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+#nav li
+{
+    display: inline;
+    /*width:14.28571428571429%;*/
+    background-color: #000000;
+    font-family: 'DejaVu Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0.313em;
+}
+
+#nav a
+{
+    color: #ffffff;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tvideo{
+  background-color:#000000;
+}
+.subtitle{
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+}
+/*End Added*/
+
+.title {
+  font-size : 16pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+td {
+	font-family: <FONTNAME/>;
+	font-size: <FONTSIZE/>pt;
+	text-align: center;	
+	color: <FONTCOLOR/>;
+	background-color: <THUMBBGCOLOR/>;
+	padding: 10px 10px 10px 10px;
+}
+
+img {
+	border: 0;
+}
+
+a {
+	color: <FONTCOLOR/>;	
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:hover img#thumbimage {
+	text-decoration: none;
+}
+
+.navigation {
+}
+
+.navigationline {
+  padding: 2px 0px;
+}
+
+.navlink {
+  text-align: center;
+  display: inline;
+	color: <FONTCOLOR/>;	
+	font-size: 8pt;
+	font-weight : bold;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.navlink#current {
+  border: solid 1px;
+}
+
+.navlink a {
+	text-decoration: none;
+	color: <FONTCOLOR/>;	
+	font-size: 8pt;
+	font-weight : bold;
+}
+
+.navlink a:hover {
+	text-decoration: underline;
+}
